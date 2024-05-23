@@ -10,9 +10,9 @@ function Navbar() {
     >
       <div className="md:flex items-center bg-black justify-between py-4 md:px-10 px-7 md:items-center  ">
         {/* <image src={logo} style={{width:"100px"}}/> */}
-        <h1 style={{color:"white"}}>SWIFT EXCHANGE.</h1>
+        <h1 style={{color:"white",marginTop:"10px"}}>SWIFT EXCHANGE.</h1>
         { open ? 
-        <div className="absolute right-8 top-6 cursor-pointer mb-[20px] md:hidden">
+        <div className="absolute right-8 top-6 cursor-pointer  md:hidden">
         <RxHamburgerMenu style={{fontSize:"30px",color:"purple"}} onClick={()=>setOpen(!open)} />
         </div>:
         <div className="absolute right-8 top-6 cursor-pointer md:hidden">
