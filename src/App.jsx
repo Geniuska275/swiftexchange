@@ -1,12 +1,13 @@
+import Navbar from "./components/navbar"
 
 
 function App() {
 
 
   return (
-    <>
-    <h1 className='text-center text-blue-300'>swift exchange</h1>
-   </>
+    <div className="bg-blackc">
+     <Navbar/>
+   </div>
   )
 }
 
