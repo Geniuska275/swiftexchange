@@ -33,7 +33,7 @@ function Navbar() {
          <Link to="/AboutUs">
           <li className="md:ml-8 md:my-0 my-7 font-bold text-xl text-[#E6E6E6] font-[Poppins]">About Us</li>
          </Link>
-         <a href="https://wa.me/+2347032188798s"> 
+         <a href="https://wa.me/+2347032188798"> 
          <button className="bg-[#CD45FD] md:ml-8 rounded-md   font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500">How to trade</button>
          </a>
         </ul>

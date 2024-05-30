@@ -25,8 +25,13 @@ function Homepage() {
         <h1 className="text-center font-bold text-[40px] text-[#E6E6E6] mt-5 font-[Poppins]">Empower Your financial future with<br></br> the ultimate crypto and gift cards exchange:<br></br>Join the revolution today.</h1>
          <h2 className="text-center font-bold text-3xl text-[grey] mt-3 font-[Poppins]" >We trade all types of gift cards, BTC, ETH and others and we pay in naira and rands.</h2>
          <div className="text-center mt-[20px]">
+          
+         <a href="https://wa.me/+2347032188798"> 
           <button className='bg-[#CD45FD] md:ml-8 rounded-md   font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'> Trade Here</button>
+          </a>
+          <a href="https://www.instagram.com/swiftexchange007?igsh=MTZrZWwzaHF0bTR4ag%3D%3D&utm_source=qr">
           <button className='bg-transparent md:ml-8 rounded-md  border border-[#CD45FD]  font-[Poppins] px-6 py-2 text-[#CD45FD] shadow-lg hover:bg-purple-500 duration-500 hover:text-white'  > Follow Us</button>
+          </a>
          </div>
       </section>
       <section className="line">
@@ -46,7 +51,6 @@ function Homepage() {
             <h1 className="text-[#E6E6E6] font-bold mt-3">We Are Dependable</h1>
             <p>count on us for reliable service and secure transactions.<br></br>
             Your dependable partner in the Cryptocurrency world.</p>
-
           </div>
           <div>
           <img src="./r.jpeg"/>
