@@ -11,10 +11,6 @@ import AboutUs from "./pages/AboutUs";
 import Giftcards from "./pages/Giftcards";
 
 function App() {
-
-
-
-
   return (
     <Router>
     <Navbar />
