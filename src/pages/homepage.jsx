@@ -109,7 +109,7 @@ function Homepage() {
           </div>
          </div>
       </section>
-      <section>
+      {/* <section>
         <div className="What">
           <h1 className="font-bold text-[#E6E6E6] ml-[90px] text-xl ">What We Do At <span className="text-[#CD45FD]">Swiftexchange</span></h1>
           <button className='bg-[#CD45FD] md:ml-8 rounded-md  mr-[115px] font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'>
@@ -166,7 +166,7 @@ function Homepage() {
            <p className="font-bold text-[gray]">At Swift Exchange, we prioritize customer satisfaction and offer round clock support</p>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="flex justify-center items-center mt-6">
 
         <div className="sub">
@@ -200,31 +200,30 @@ function Homepage() {
         <div>
           <h3>Gift Cards</h3>
           <ul>
-            <li>Trade</li>
-            <li>About Us</li>
-            <li>Faq</li>
-            <li>Reviews</li>
-            <li>Rates</li>
+            <li>Ebay</li>
+            <li>Stream</li>
+            <li>Sephora</li>
+            <li>Razor Gold</li>
+            <li>Amazon</li>
            </ul>
         </div>
         <div>
           <h3>Cryptos</h3>
           <ul>
-            <li>Trade</li>
-            <li>About Us</li>
-            <li>Faq</li>
-            <li>Reviews</li>
-            <li>Rates</li>
+            <li>BitCoin</li>
+            <li>USDT</li>
+            <li>Etherum</li>
+            <li>Atom </li>
+            <li>Ripple</li>
            </ul>
         </div>
         <div>
           <h3>Cryto Market</h3>
           <ul>
-            <li>Trade</li>
-            <li>About Us</li>
-            <li>Faq</li>
-            <li>Reviews</li>
-            <li>Rates</li>
+            <li>Price Chart</li>
+            <li>Market Analysis</li>
+            <li>Latest News</li>
+            <li>Trading Platform</li>
            </ul>
         </div>
 

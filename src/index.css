@@ -96,9 +96,11 @@ h2{
 h3{
     font-weight: bold;
     color: white;
+    margin-left: 10px;
 }
 ul > li{
   color: gray;
+  margin-right: 10px;
 }
 ul{
     padding: 10px;
