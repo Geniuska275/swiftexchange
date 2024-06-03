@@ -34,12 +34,12 @@ function Homepage() {
     
     <div className="text-white">
       <section className="banner">
-        <h1 className="text-center font-bold text-[40px] text-[#E6E6E6] mt-5 font-[Poppins]">Empower Your financial future with<br></br> the ultimate crypto and gift cards exchange:<br></br>Join the revolution today.</h1>
-         <h2 className="text-center font-bold text-3xl text-[grey] mt-3 font-[Poppins]" >We trade all types of gift cards, BTC, ETH and others and we pay in naira and rands.</h2>
-         <div className="text-center mt-[20px]">
+        <h1 className="text-center font-bold text-[20px] text-[#E6E6E6] mt-5 font-[Poppins]">Empower Your financial future with<br></br> the ultimate crypto and gift cards exchange:<br></br>Join the revolution today.</h1>
+         <h2 className="text-center font-bold text-xl text-[grey] mt-3 font-[Poppins]" >We trade all types of gift cards, BTC, ETH and others and we pay in naira and rands.</h2>
+         <div className=" btn text-center mt-[20px]">
           
          <a href="https://wa.me/+2347032188798"> 
-          <button className='bg-[#CD45FD] md:ml-8 rounded-md   font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'> Trade Here</button>
+          <button className=' mb-4 bg-[#CD45FD] md:ml-8 rounded-md   font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'> Trade Here</button>
           </a>
           <a href="https://www.instagram.com/swiftexchange007?igsh=MTZrZWwzaHF0bTR4ag%3D%3D&utm_source=qr">
           <button className='bg-transparent md:ml-8 rounded-md  border border-[#CD45FD]  font-[Poppins] px-6 py-2 text-[#CD45FD] shadow-lg hover:bg-purple-500 duration-500 hover:text-white'  > Follow Us</button>
@@ -47,10 +47,10 @@ function Homepage() {
          </div>
       </section>
       <section className="line">
-        <h3><b>+1000</b> Users</h3>
-        <h3><b>+15</b> Sponsors & Partners</h3>
-        <h3><b>+5000</b> Daily Trades</h3>
-        <h3><b>+30</b> Cryptocurrency</h3>
+        <h5><b>+1000</b> Users</h5>
+        <h5><b>+15</b> Sponsors & Partners</h5>
+        <h5><b>+5000</b> Daily Trades</h5>
+        <h5><b>+30</b> Cryptocurrency</h5>
       </section>
       <ActiveSlider/>
       <section className="mt-5">
@@ -171,27 +171,20 @@ function Homepage() {
           </div>
         </div>
       </section> */}
-      <section className="flex justify-center items-center mt-6">
+      <section className="">
 
         <div className="sub">
           <h1 className="text-center text-white text-3xl font-bold font-[Poppins]">Subscribe For Our Tips</h1>
           <p className="text-center text-white font-[Poppins] mt-4">Partnering with a secure like swift exchange,and can navigate the exciting<br></br> world of cryptocurrency with confidence by subscribing to receive our tips
           </p>
-          <button className="bg-[#CD45FD] text-center text-white border border-white mt-5 shadow rounded p-[10px]">Subscribe Now</button>
-        </div>
-      </section>
-      <section className="media">
-        <h1 className="ml-[80px]">SWIFTEXCHANGE</h1>
-        <div className="flex gap-6 mr-[80px]">
-        <FaFacebook color="white" />
-        <FaSquareInstagram />
-        <FaLinkedin />
-        <RiTwitterXFill />
+          <div className="text-center mt-4">
 
+          <button className="bg-[#CD45FD]  text-center text-white border border-white mt-5 shadow rounded p-[10px]" style={{margin:"auto"}}>Subscribe Now</button>
+          </div>
         </div>
       </section>
       <footer>
-        <div>
+        <div className="item">
           <h3>Company</h3>
            <ul>
             <li>Trade</li>
@@ -201,7 +194,7 @@ function Homepage() {
             <li>Rates</li>
            </ul>
         </div>
-        <div>
+        <div className="item">
           <h3>Gift Cards</h3>
           <ul>
             <li>Ebay</li>
@@ -211,7 +204,7 @@ function Homepage() {
             <li>Amazon</li>
            </ul>
         </div>
-        <div>
+        <div className="item">
           <h3>Cryptos</h3>
           <ul>
             <li>BitCoin</li>
@@ -221,7 +214,7 @@ function Homepage() {
             <li>Ripple</li>
            </ul>
         </div>
-        <div>
+        <div className="item">
           <h3>Cryto Market</h3>
           <ul>
             <li>Price Chart</li>
@@ -229,6 +222,17 @@ function Homepage() {
             <li>Latest News</li>
             <li>Trading Platform</li>
            </ul>
+        </div>
+        <div className="mb-[100px] items">
+          <h3 className="mb-3">Social Media</h3>
+          <div className="flex gap-6 mr-[80px]">
+        <FaFacebook color="white" />
+        <FaSquareInstagram />
+        <FaLinkedin />
+           <RiTwitterXFill />
+
+        </div>
+          
         </div>
 
 
@@ -240,10 +244,10 @@ function Homepage() {
         <div className="flex gap-2 items-center">
           
         <MdOutlineCopyright />
-          <h2>Copyright 2023 Swift Exchange</h2>
+          <small>Copyright 2023 Swift Exchange</small>
 
         </div>
-        <h2>Terms & Conditions</h2>
+        <small>Terms & Conditions</small>
 
 
 
