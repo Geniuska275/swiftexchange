@@ -60,7 +60,10 @@ body{
     align-items: center;
     margin-top: 30px;
 }
-
+h2{
+    font-weight: bold;
+    color: white;
+}
 .sub{
     background-color: #CD45FD;
     padding: 30px;
@@ -72,4 +75,58 @@ body{
     justify-content: center;
     align-items: center;
 
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3{
+    font-weight: bold;
+    color: white;
+}
+ul > li{
+  color: gray;
+}
+ul{
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+@media only screen  and (max-width:550px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    footer{
+      display: flex;
+      flex-direction: column;
+    }
+    .media{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub{
+        width: 200px;
+        height: 300px;
+    }
 }

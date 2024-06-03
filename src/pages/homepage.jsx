@@ -1,5 +1,14 @@
 import { useEffect, useState } from "react";
 import HashLoader from "react-spinners/HashLoader";
+import { BsBoundingBoxCircles } from "react-icons/bs";
+import { BsCreditCardFill } from "react-icons/bs";
+import { BsCoin } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
+import { MdOutlineCopyright } from "react-icons/md";
+
 
 function Homepage() {
     const [loading,setLoading]=useState(false);
@@ -47,18 +56,54 @@ function Homepage() {
          Your assets are safe ,your satisfaction is gauranteed.</h2>
          <div className="character">
           <div className="w-[300px] p-[10px] ">
-            <img src="./s.jpeg" style={{width:"100px",textAlign:"center"}}/>
+          <div style={{
+                margin:"auto",
+                border:"2px solid #CD45FD",
+                padding:"10px",
+                borderRadius:"5px",
+                width:"50px",
+                height:"50px",
+                justifyContent:"center",
+                alignItems:"center",
+                display:"flex"
+               }}>
+               <BsBoundingBoxCircles style={{fontSize:"25px",color:"#CD45FD"}} />
+               </div>
             <h1 className="text-[#E6E6E6] font-bold mt-3 text-2xl text-center mb-4">We Are Dependable</h1>
             <p className="text-center text-[grey] font-bold">count on us for reliable service and secure transactions.<br></br>
             Your dependable partner in the Cryptocurrency world.</p>
           </div>
           <div className="w-[300px] p-[10px] ">
-          <img src="./r.jpeg"/>
+          <div style={{
+                margin:"auto",
+                border:"2px solid #CD45FD",
+                padding:"10px",
+                borderRadius:"5px",
+                width:"50px",
+                height:"50px",
+                justifyContent:"center",
+                alignItems:"center",
+                display:"flex"
+               }}>
+               <BsCreditCardFill style={{fontSize:"25px",color:"#CD45FD"}} />
+               </div>
             <h1 className="text-[#E6E6E6] font-bold mt-3 text-2xl text-center mb-4" >Reliable</h1>
             <p className="text-center text-[grey] font-bold ">trust in us for unmatched secure transactions instant payment and fast trading in consistent high returns.</p>
           </div>
           <div className="w-[300px] p-[10px] ">
-          <img src="./t.jpeg"/>
+          <div style={{
+                margin:"auto",
+                border:"2px solid #CD45FD",
+                padding:"10px",
+                borderRadius:"5px",
+                width:"50px",
+                height:"50px",
+                justifyContent:"center",
+                alignItems:"center",
+                display:"flex"
+               }}>
+               <BsCoin style={{fontSize:"25px",color:"#CD45FD"}} />
+               </div>
             <h1 className="text-[#E6E6E6] font-bold mt-3 text-2xl text-center mb-4" >Transparent</h1>
             <p className="text-center text-[grey] font-bold">Experience complete transparency,clear,honest transactions and full visibility into your investments.</p>
           </div>
@@ -67,7 +112,7 @@ function Homepage() {
       <section>
         <div className="What">
           <h1 className="font-bold text-[#E6E6E6] ml-[90px] text-xl ">What We Do At <span className="text-[#CD45FD]">Swiftexchange</span></h1>
-          <button className='bg-[#CD45FD] md:ml-8 rounded-md  mr-[95px] font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'>
+          <button className='bg-[#CD45FD] md:ml-8 rounded-md  mr-[115px] font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'>
              Trade with Swift Exchange
           </button>
         </div>
@@ -78,7 +123,8 @@ function Homepage() {
                 <h1 className="font-bold text-xl text-[#E6E6E6] mb-3">Seamless Experience</h1>
                 <p className="font-bold text-[gray]">Our platform provides a seamless experience for selling and trading a wide range of Cryptocurrencies and Gift cards.</p>
               </div>
-               <img src="./seamless.jpeg"/>
+          <BsBoundingBoxCircles style={{fontSize:"80px",color:"#CD45FD"}} />
+              
  
 
             </div>
@@ -89,14 +135,33 @@ function Homepage() {
                   You can bid farewell to scammers & unreliable traders as we are here to provide secure and trustworthy envrionments for your transactions.
                 </p>
               </div>
-               <img src="./seamless.jpeg"/>
+               <div style={{
+                margin:"auto",
+                border:"2px solid #CD45FD",
+                padding:"10px",
+                borderRadius:"5px"
+               }}>
+               <BsCoin style={{fontSize:"30px",color:"#CD45FD"}} />
+               </div>
  
 
 
             </div>
           </div>
           <div className="border border-white w-[400px] h-[400px] p-5 rounded-lg">
-          <img src="./seamless.jpeg"/>
+          <div style={{
+           
+                border:"2px solid #CD45FD",
+                padding:"10px",
+                borderRadius:"5px",
+                width:"100px",
+                height:"100px",
+                justifyContent:"center",
+                alignItems:"center",
+                display:"flex"
+               }}>
+               <BsCreditCardFill style={{fontSize:"50px",color:"#CD45FD"}} />
+               </div>
            <h1 className="font-bold text-xl text-[#E6E6E6] mb-6" >Support</h1>
            <p className="font-bold text-[gray]">At Swift Exchange, we prioritize customer satisfaction and offer round clock support</p>
           </div>
@@ -111,13 +176,75 @@ function Homepage() {
           <button className="bg-[#CD45FD] text-center text-white border border-white mt-5 shadow rounded p-[10px]">Subscribe Now</button>
         </div>
       </section>
+      <section className="media">
+        <h1 className="ml-[80px]">SWIFTEXCHANGE</h1>
+        <div className="flex gap-6 mr-[80px]">
+        <FaFacebook color="white" />
+        <FaSquareInstagram />
+        <FaLinkedin />
+        <RiTwitterXFill />
+
+        </div>
+      </section>
       <footer>
+        <div>
+          <h3>Company</h3>
+           <ul>
+            <li>Trade</li>
+            <li>About Us</li>
+            <li>Faq</li>
+            <li>Reviews</li>
+            <li>Rates</li>
+           </ul>
+        </div>
+        <div>
+          <h3>Gift Cards</h3>
+          <ul>
+            <li>Trade</li>
+            <li>About Us</li>
+            <li>Faq</li>
+            <li>Reviews</li>
+            <li>Rates</li>
+           </ul>
+        </div>
+        <div>
+          <h3>Cryptos</h3>
+          <ul>
+            <li>Trade</li>
+            <li>About Us</li>
+            <li>Faq</li>
+            <li>Reviews</li>
+            <li>Rates</li>
+           </ul>
+        </div>
+        <div>
+          <h3>Cryto Market</h3>
+          <ul>
+            <li>Trade</li>
+            <li>About Us</li>
+            <li>Faq</li>
+            <li>Reviews</li>
+            <li>Rates</li>
+           </ul>
+        </div>
 
 
 
 
         
       </footer>
+      <div className="last">
+        <div className="flex gap-2 items-center">
+          
+        <MdOutlineCopyright />
+          <h2>Copyright 2023 Swift Exchange</h2>
+
+        </div>
+        <h2>Terms & Conditions</h2>
+
+
+
+      </div>
     </div>
     }
     </>
