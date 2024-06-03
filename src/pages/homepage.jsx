@@ -8,6 +8,9 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import { MdOutlineCopyright } from "react-icons/md";
+import ActiveSlider from "../components/ActiveSlider";
+
+
 
 
 function Homepage() {
@@ -49,6 +52,7 @@ function Homepage() {
         <h3><b>+5000</b> Daily Trades</h3>
         <h3><b>+30</b> Cryptocurrency</h3>
       </section>
+      <ActiveSlider/>
       <section className="mt-5">
         <h1 className="text-center text-[#CD45FD]">WHY US</h1>
         <h1 className="text-center font-bold text-[30px] text-[#E6E6E6] mt-5 font-[Poppins]">Experience The Best in Security,<br></br> High Rates And Incredibility.</h1>

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const [open, setOpen]=useState(false)
   return (
-    <div className="shadow-md top-0 sticky left-0 w-full border-b border-0 "
+    <div className="shadow-md top-0 sticky left-0 w-full border-b border-0 z-10 "
     >
       <div className="md:flex items-center bg-black justify-between py-4 md:px-10 px-7 md:items-center  ">
         {/* <image src={logo} style={{width:"100px"}}/> */}
