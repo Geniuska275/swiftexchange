@@ -9,11 +9,13 @@ import Homepage from "./pages/homepage";
 import Cryptocurrency from "./pages/cryptocurrency";
 import AboutUs from "./pages/AboutUs";
 import Giftcards from "./pages/Giftcards";
+import NewHeader from "./components/NewHeader";
 
 function App() {
   return (
     <Router>
-    <Navbar />
+    {/* <Navbar /> */}
+    <NewHeader/>
     <Routes>
       <Route path="/" element={<Homepage/>} />
       <Route
@@ -21,11 +23,7 @@ function App() {
         element={<Cryptocurrency/>}
         />
         <Route
-        path="/AboutUs"
-        element={<AboutUs/>}
-        />
-        <Route
-        path="/GiftCards"
+        path="/gift-cards"
         element={<Giftcards/>}
         />
     </Routes>

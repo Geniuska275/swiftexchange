@@ -34,7 +34,7 @@ function Homepage() {
     
     <div className="text-white">
       <section className="banner">
-        <h1 className="text-center font-bold text-[20px] text-[#E6E6E6] mt-5 font-[Poppins]">Empower Your financial future with<br></br> the ultimate crypto and gift cards exchange:<br></br>Join the revolution today.</h1>
+        <h1 className="text-center font-bold text-[20px] text-[#E6E6E6] mt-[100px] font-[Poppins]">Empower Your financial future with<br></br> the ultimate crypto and gift cards exchange:<br></br>Join the revolution today.</h1>
          <h2 className="text-center font-bold text-xl text-[grey] mt-3 font-[Poppins]" >We trade all types of gift cards, BTC, ETH and others and we pay in naira and rands.</h2>
          <div className=" btn text-center mt-[20px]">
           
@@ -223,8 +223,8 @@ function Homepage() {
             <li>Trading Platform</li>
            </ul>
         </div>
-        <div className="mb-[100px] items">
-          <h3 className="mb-3">Social Media</h3>
+        <div className="mb-[100px] itemss">
+          <h3 className="mb-3 text-[#CD45FD] font-[Poppins]">Social Media</h3>
           <div className="flex gap-6 mr-[80px]">
         <FaFacebook color="white" />
         <FaSquareInstagram />
