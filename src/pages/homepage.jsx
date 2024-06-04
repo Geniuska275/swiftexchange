@@ -123,49 +123,8 @@ function Homepage() {
           </button>
           </a>
         </div>
-        <div className="seamless">
-          <div>
-
-            <div className=" experience border border-[#CD45FD] w-[600px] mb-4  flex justify-between items-center rounded-lg h-[150px] p-5 mb-4"> 
-              <div>
-                <h1 className=" less font-bold text-xl text-[#E6E6E6] mb-3">Seamless Experience</h1>
-                <p className=" lesser font-bold text-[gray]">Our platform provides a seamless experience for selling and trading a wide range of Cryptocurrencies and Gift cards.</p>
-              </div>
        
-
-            </div>
-            <div className=" experience border border-[#CD45FD] w-[600px] mb-4  flex justify-between items-center rounded-lg h-[150px] p-5 mb-4"> 
-              <div>
-                <h1 className=" less font-bold text-xl text-[#E6E6E6] mb-3">Support</h1>
-                <p className=" lesser font-bold text-[gray]">
-                At Swift Exchange, we prioritize customer satisfaction and offer round clock support
-                </p>
-                
-              </div>
        
-
-            </div>
-
-
-
-
-
-            <div className=" experience border border-[#CD45FD] w-[600px] mb-4  flex justify-between items-center rounded-lg h-[150px] p-5 mb-4"> 
-            <div>
-                <h1 className=" less font-bold text-xl text-[#E6E6E6] mb-3">Security</h1>
-                <p className=" less font-bold text-[gray]">
-                  You can bid farewell to scammers & unreliable traders as we are here to provide secure and trustworthy envrionments for your transactions.
-                </p>
-              </div>
-              
-               {/* <BsCoin style={{fontSize:"30px",color:"#CD45FD"}} /> */}
-            </div>
-          </div>
-
-         
-        </div>
-      </section>
-
 
       
       <section className="">
