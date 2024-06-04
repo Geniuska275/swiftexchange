@@ -55,8 +55,8 @@ body{
 }
 .seamless{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction:column;
+    justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
@@ -175,6 +175,30 @@ footer{
         padding: 10px;
         column-gap: 10px;
         flex-direction: column;
+    }
+    .What{
+        display: flex;
+        flex-direction: column;
+    }
+    .what{
+        margin: auto;
+       
+    }
+    .do{
+        margin: auto;
+        margin-top: 10px;
+    }
+    .experience{
+        width: 300px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .less{
+        font-size: 14px;
+    }
+    .lesser{
+        font-size: 14px;
+
     }
 }
 

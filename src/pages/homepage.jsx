@@ -113,64 +113,61 @@ function Homepage() {
           </div>
          </div>
       </section>
-      {/* <section>
+
+      <section>
         <div className="What">
-          <h1 className="font-bold text-[#E6E6E6] ml-[90px] text-xl ">What We Do At <span className="text-[#CD45FD]">Swiftexchange</span></h1>
-          <button className='bg-[#CD45FD] md:ml-8 rounded-md  mr-[115px] font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'>
+          <h1 className="font-bold text-[#E6E6E6] ml-[90px] text-xl  what">What We Do At <span className="text-[#CD45FD]">Swiftexchange</span></h1>
+          <a href="https://wa.me/+2347032188798"> 
+          <button className='do bg-[#CD45FD] md:ml-8 rounded-md  mr-[115px] font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'>
              Trade with Swift Exchange
           </button>
+          </a>
         </div>
         <div className="seamless">
           <div>
-            <div className="border border-white w-[750px]  flex justify-between items-center rounded-md h-[200px] p-5 mb-4"> 
+
+            <div className=" experience border border-[#CD45FD] w-[600px] mb-4  flex justify-between items-center rounded-lg h-[150px] p-5 mb-4"> 
               <div>
-                <h1 className="font-bold text-xl text-[#E6E6E6] mb-3">Seamless Experience</h1>
-                <p className="font-bold text-[gray]">Our platform provides a seamless experience for selling and trading a wide range of Cryptocurrencies and Gift cards.</p>
+                <h1 className=" less font-bold text-xl text-[#E6E6E6] mb-3">Seamless Experience</h1>
+                <p className=" lesser font-bold text-[gray]">Our platform provides a seamless experience for selling and trading a wide range of Cryptocurrencies and Gift cards.</p>
               </div>
-          <BsBoundingBoxCircles style={{fontSize:"80px",color:"#CD45FD"}} />
-              
- 
+       
 
             </div>
-            <div className="border border-white w-[750px]  p-5 flex justify-between items-center rounded-md h-[200px]"> 
+            <div className=" experience border border-[#CD45FD] w-[600px] mb-4  flex justify-between items-center rounded-lg h-[150px] p-5 mb-4"> 
+              <div>
+                <h1 className=" less font-bold text-xl text-[#E6E6E6] mb-3">Support</h1>
+                <p className=" lesser font-bold text-[gray]">
+                At Swift Exchange, we prioritize customer satisfaction and offer round clock support
+                </p>
+                
+              </div>
+       
+
+            </div>
+
+
+
+
+
+            <div className=" experience border border-[#CD45FD] w-[600px] mb-4  flex justify-between items-center rounded-lg h-[150px] p-5 mb-4"> 
             <div>
-                <h1 className="font-bold text-xl text-[#E6E6E6] mb-3">Security</h1>
-                <p className="font-bold text-[gray]">
+                <h1 className=" less font-bold text-xl text-[#E6E6E6] mb-3">Security</h1>
+                <p className=" less font-bold text-[gray]">
                   You can bid farewell to scammers & unreliable traders as we are here to provide secure and trustworthy envrionments for your transactions.
                 </p>
               </div>
-               <div style={{
-                margin:"auto",
-                border:"2px solid #CD45FD",
-                padding:"10px",
-                borderRadius:"5px"
-               }}>
-               <BsCoin style={{fontSize:"30px",color:"#CD45FD"}} />
-               </div>
- 
-
-
+              
+               {/* <BsCoin style={{fontSize:"30px",color:"#CD45FD"}} /> */}
             </div>
           </div>
-          <div className="border border-white w-[400px] h-[400px] p-5 rounded-lg">
-          <div style={{
-           
-                border:"2px solid #CD45FD",
-                padding:"10px",
-                borderRadius:"5px",
-                width:"100px",
-                height:"100px",
-                justifyContent:"center",
-                alignItems:"center",
-                display:"flex"
-               }}>
-               <BsCreditCardFill style={{fontSize:"50px",color:"#CD45FD"}} />
-               </div>
-           <h1 className="font-bold text-xl text-[#E6E6E6] mb-6" >Support</h1>
-           <p className="font-bold text-[gray]">At Swift Exchange, we prioritize customer satisfaction and offer round clock support</p>
-          </div>
+
+         
         </div>
-      </section> */}
+      </section>
+
+
+      
       <section className="">
 
         <div className="sub">
@@ -178,8 +175,9 @@ function Homepage() {
           <p className="text-center text-white font-[Poppins] mt-4">Partnering with a secure like swift exchange,and can navigate the exciting<br></br> world of cryptocurrency with confidence by subscribing to receive our tips
           </p>
           <div className="text-center mt-4">
-
+          <a href="https://www.instagram.com/swiftexchange007?igsh=MTZrZWwzaHF0bTR4ag%3D%3D&utm_source=qr">
           <button className="bg-[#CD45FD]  text-center text-white border border-white mt-5 shadow rounded p-[10px]" style={{margin:"auto"}}>Subscribe Now</button>
+          </a>
           </div>
         </div>
       </section>
