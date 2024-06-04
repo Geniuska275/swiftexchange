@@ -114,19 +114,7 @@ function Homepage() {
          </div>
       </section>
 
-      <section>
-        <div className="What">
-          <h1 className="font-bold text-[#E6E6E6] ml-[90px] text-xl  what">What We Do At <span className="text-[#CD45FD]">Swiftexchange</span></h1>
-          <a href="https://wa.me/+2347032188798"> 
-          <button className='do bg-[#CD45FD] md:ml-8 rounded-md  mr-[115px] font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'>
-             Trade with Swift Exchange
-          </button>
-          </a>
-        </div>
-       
-       
-
-      
+    
       <section className="">
 
         <div className="sub">
