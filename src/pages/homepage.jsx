@@ -242,7 +242,7 @@ function Homepage() {
         <div className="flex gap-2 items-center">
           
         <MdOutlineCopyright />
-          <small>Copyright 2023 Swift Exchange</small>
+          <small>Copyright 2024 Swift Exchange</small>
 
         </div>
         <small>Terms & Conditions</small>
