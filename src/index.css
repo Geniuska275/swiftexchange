@@ -124,7 +124,7 @@ footer{
     align-items: center;
     padding: 20px;
 }
-@media only screen  and (max-width:550px) {
+@media only screen  and (max-width:600px) {
     .container{
         display: grid;
         grid-template-columns: 1fr;
