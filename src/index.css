@@ -189,9 +189,8 @@ footer{
         margin-top: 10px;
     }
     .experience{
-        width: 200px;
-        margin:auto;
-        margin-bottom: 20px;
+        
+        display: none;
     }
     .less{
         font-size: 14px;
