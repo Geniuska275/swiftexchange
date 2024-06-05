@@ -217,10 +217,11 @@ footer{
         flex-direction: column;
     }
     .do{
-       
+        
         margin-top: 10px;
     }
     .btn{
+        margin-left: 100px;
         margin-top: 10px;
     }
     .experience{
