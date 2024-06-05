@@ -191,11 +191,10 @@ footer{
         flex-direction: column;
     }
     .do{
-        margin: auto;
+       
         margin-top: 10px;
     }
     .btn{
-        margin: auto;
         margin-top: 10px;
     }
     .experience{
