@@ -126,6 +126,19 @@ function Homepage() {
             <h1 className="hi">Seamless Experience</h1>
             <p className="platform">Our Platform provides a Seamless experience for selling and trading a wide range of cryptocurrency and gift cards.</p>
           </div>
+          <div className="seam">
+            <h1 className="hi">Security</h1>
+            <p className="platform">
+              You can bid farewell to scammers & unreliable traders as we are here to provide secure and trustworthy environment for you transactions.
+
+            </p>
+          </div>
+          <div className="seam">
+            <h1 className="hi">Support</h1>
+            <p className="platform">
+              At Swift Exchange ,we prioritise customer satisfaction and offer round clock support.
+            </p>
+          </div>
 
 
 

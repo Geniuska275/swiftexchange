@@ -140,6 +140,8 @@ footer{
     border: 2px solid #CD45FD;
     padding: 20px;
     border-radius: 15px;
+    width: 500px;
+    margin-bottom: 10px;
 
    
 }
