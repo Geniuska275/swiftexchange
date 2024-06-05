@@ -121,7 +121,15 @@ function Homepage() {
           <button  className=' btn mr-[120px] mb-4 bg-[#CD45FD] md:ml-8 rounded-md   font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'>Trade with Swift Exchange</button>
         </div>
 
+         <div className="box">
+          <div className="seam">
+            <h1 className="hi">Seamless Experience</h1>
+            <p className="platform">Our Platform provides a Seamless experience for selling and trading a wide range of cryptocurrency and gift cards.</p>
+          </div>
 
+
+
+         </div>
        </section>
 
     
