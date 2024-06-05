@@ -15,7 +15,8 @@ import ActiveSlider from "../components/ActiveSlider";
 
 function Homepage() {
     const [loading,setLoading]=useState(false);
-
+    const facebook=import.meta.env.VITE_FACEBOOK
+   console.log(facebook)
     useEffect(()=>{
       setLoading(true)
       setTimeout(()=>{
@@ -38,10 +39,10 @@ function Homepage() {
          <h2 className="text-center font-bold text-xl text-[grey] mt-3 font-[Poppins]" >We trade all types of gift cards, BTC, ETH and others and we pay in naira and rands.</h2>
          <div className=" btn text-center mt-[20px]">
           
-         <a href="https://wa.me/+2347032188798"> 
+         <a href={import.meta.env.VITE_WHATSAPP}> 
           <button className=' mb-4 bg-[#CD45FD] md:ml-8 rounded-md   font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'> Trade Here</button>
           </a>
-          <a href="https://www.instagram.com/swiftexchange007?igsh=MTZrZWwzaHF0bTR4ag%3D%3D&utm_source=qr">
+          <a href={import.meta.env.VITE_INSTA}>
           <button className='bg-transparent md:ml-8 rounded-md  border border-[#CD45FD]  font-[Poppins] px-6 py-2 text-[#CD45FD] shadow-lg hover:bg-purple-500 duration-500 hover:text-white'  > Follow Us</button>
           </a>
          </div>
@@ -114,6 +115,7 @@ function Homepage() {
          </div>
       </section>
 
+
     
       <section className="">
 
@@ -122,7 +124,7 @@ function Homepage() {
           <p className="text-center text-white font-[Poppins] mt-4">Partnering with a secure like swift exchange,and can navigate the exciting<br></br> world of cryptocurrency with confidence by subscribing to receive our tips
           </p>
           <div className="text-center mt-4">
-          <a href="https://www.instagram.com/swiftexchange007?igsh=MTZrZWwzaHF0bTR4ag%3D%3D&utm_source=qr">
+          <a href={import.meta.env.VITE_INSTA}>
           <button className="bg-[#CD45FD]  text-center text-white border border-white mt-5 shadow rounded p-[10px]" style={{margin:"auto"}}>Subscribe Now</button>
           </a>
           </div>
@@ -171,10 +173,22 @@ function Homepage() {
         <div className="mb-[100px] itemss">
           <h3 className="mb-3 text-[#CD45FD] font-[Poppins]">Social Media</h3>
           <div className="flex gap-6 mr-[80px]">
-        <FaFacebook color="white" />
+            <a href={facebook} className="hover:text-red-100">
+
+            <FaFacebook color="white" />
+            </a>
+            <a href={import.meta.env.VITE_INSTA}>
+
         <FaSquareInstagram />
+            </a>
+<a href={import.meta.env.VITE_LINKEDIN}>
+
         <FaLinkedin />
+            </a>
+            <a href={import.meta.env.VITE_TWITTER}>
+
            <RiTwitterXFill />
+            </a>
 
         </div>
           
