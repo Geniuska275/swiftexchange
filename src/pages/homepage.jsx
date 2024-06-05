@@ -118,7 +118,7 @@ function Homepage() {
        <section className="mt-[50px]">
         <div className="what">
           <h1 className="do text-white font-bold font-[Poppins] text-xl ml-[120px]">What We do at <span className="text-[#CD45FD]">Swift Exchange</span></h1>
-          <button  className=' btn mr-[120px] mb-4 bg-[#CD45FD] md:ml-8 rounded-md   font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'>Trade with Swift Exchange</button>
+          <button  className=' bt mr-[120px] mb-4 bg-[#CD45FD] md:ml-8 rounded-md   font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'>Trade with Swift Exchange</button>
         </div>
 
          <div className="box">
