@@ -124,6 +124,12 @@ footer{
     align-items: center;
     padding: 20px;
 }
+.what{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 @media only screen  and (max-width:600px) {
     .container{
         display: grid;
@@ -181,10 +187,14 @@ footer{
         flex-direction: column;
     }
     .what{
-        margin: auto;
-       
+        display: flex;
+        flex-direction: column;
     }
     .do{
+        margin: auto;
+        margin-top: 10px;
+    }
+    .btn{
         margin: auto;
         margin-top: 10px;
     }
