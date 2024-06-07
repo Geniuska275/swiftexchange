@@ -142,6 +142,10 @@ function Homepage() {
               At Swift Exchange ,we prioritise customer satisfaction and offer round clock support.
             </p>
           </div>
+              
+         <a href={import.meta.env.VITE_WHATSAPP}> 
+          <button  className=' btt mr-[120px] mb-4 bg-[#CD45FD] md:ml-8 rounded-md   font-[Poppins] px-6 py-2 text-white shadow-lg hover:bg-purple-500 duration-500'>Trade with Swift Exchange</button>
+          </a>
 
 
 

@@ -5,6 +5,9 @@
 .do{
     margin-left: 120px;
 }
+.btt{
+    display: none;
+}
 li:hover{
     border-bottom: 2px solid #CD45FD;
     color: #CD45FD;
@@ -159,6 +162,13 @@ footer{
     margin-top: 10px;
 }
 @media only screen  and (max-width:600px) {
+    .bt{
+        display: none;
+    }
+    .btt{
+        display: block;
+        margin: auto;
+    }
     .container{
         display: grid;
         grid-template-columns: 1fr;
@@ -225,6 +235,7 @@ footer{
         
         margin:auto;
         max-width: 300px;
+        margin-bottom: 10px;
         
     }
     .logo{
