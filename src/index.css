@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.do{
+    margin-left: 120px;
+}
 li:hover{
     border-bottom: 2px solid #CD45FD;
     color: #CD45FD;
