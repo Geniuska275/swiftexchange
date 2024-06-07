@@ -29,7 +29,7 @@ export default function NewHeader(){
                 <div className="flex items-center justify-between h-16">
                     {/* navbar logo */}
                 <Link to="/">
-                <img src={logo} style={{width:"220px",height:"80px"}}/>
+                <img src={logo} style={{width:"220px",height:"80px"}} className="logo"/>
                 </Link>
                 {/* end */}
                 {/* navbar links */}

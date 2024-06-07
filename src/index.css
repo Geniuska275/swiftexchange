@@ -218,11 +218,14 @@ footer{
     }
     .do{
         
-        margin-top: 10px;
+        margin:auto;
+        font-size: 14px;
+       
     }
     .bt{
         margin-left: 100px;
         margin-top: 10px;
+        width: 250px;
     }
     .experience{
         
