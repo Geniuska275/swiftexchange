@@ -26,7 +26,7 @@ body{
 }
 .banner{
     background-image: url('./banner.jpeg');
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     -o-background-size: cover;
     -moz-background-size: cover;
