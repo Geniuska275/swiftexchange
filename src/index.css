@@ -219,13 +219,15 @@ footer{
     .do{
         
         margin:auto;
-        font-size: 14px;
-       
+        
+    }
+    .logo{
+        margin-right: 90px;
     }
     .bt{
         margin-left: 100px;
         margin-top: 10px;
-        width: 250px;
+       max-width: 250px;
     }
     .experience{
         
