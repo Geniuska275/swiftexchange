@@ -57,7 +57,7 @@ function Giftcards() {
     }
        <footer className="foot">
         <div className="item">
-          <h3>Company</h3>
+          <h3 className="w-[100px]">Company</h3>
            <ul>
             <li>Trade</li>
             <li>About Us</li>
@@ -67,7 +67,7 @@ function Giftcards() {
            </ul>
         </div>
         <div className="item">
-          <h3>Gift Cards</h3>
+          <h3 className="w-[100px]">Gift Cards</h3>
           <ul>
             <li>Ebay</li>
             <li>Stream</li>
@@ -77,7 +77,7 @@ function Giftcards() {
            </ul>
         </div>
         <div className="item">
-          <h3>Cryptos</h3>
+          <h3 className="w-[100px]">Cryptos</h3>
           <ul>
             <li>BitCoin</li>
             <li>USDT</li>
@@ -87,7 +87,7 @@ function Giftcards() {
            </ul>
         </div>
         <div className="items">
-          <h3>Cryto Market</h3>
+          <h3 className="w-[100px]">Cryto Market</h3>
           <ul>
             <li>Price Chart</li>
             <li>Market Analysis</li>
