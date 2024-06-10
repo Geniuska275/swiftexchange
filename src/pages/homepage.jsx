@@ -166,8 +166,9 @@ function Homepage() {
           </div>
         </div>
       </section>
+
       <footer>
-        <div className="item">
+        <div>
           <h3 className="w-[100px]">Company</h3>
            <ul>
             <li>Trade</li>
@@ -177,7 +178,7 @@ function Homepage() {
             <li>Rates</li>
            </ul>
         </div>
-        <div className="item">
+        <div>
           <h4 className="w-[100px]">Gift Cards</h4>
           <ul>
             <li>Ebay</li>
@@ -187,7 +188,7 @@ function Homepage() {
             <li>Amazon</li>
            </ul>
         </div>
-        <div className="item">
+        <div >
           <h4 className="w-[100px]">Cryptos</h4>
           <ul>
             <li>BitCoin</li>
@@ -197,7 +198,7 @@ function Homepage() {
             <li>Ripple</li>
            </ul>
         </div>
-        <div className="item">
+        <div >
           <h4 className="w-[100px]">Cryto Market</h4>
           <ul>
             <li>Price Chart</li>
@@ -206,8 +207,8 @@ function Homepage() {
             <li>Trading Platform</li>
            </ul>
         </div>
-        <div className="mb-[100px] itemss">
-          <h3 className="mb-3 text-[#CD45FD] font-[Poppins]">Social Media</h3>
+        <div className=" itemss">
+          <h3 className="mb-3 text-[#CD45FD] font-[Poppins] w-[150px]">SOCIAL MEDIA.</h3>
           <div className="flex gap-6 mr-[80px]">
             <a href={facebook} className="hover:text-red-100">
 
@@ -229,10 +230,6 @@ function Homepage() {
         </div>
           
         </div>
-
-
-
-
         
       </footer>
       <div className="last">

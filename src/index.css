@@ -109,14 +109,13 @@ ul{
 }
 
 footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   
     border-bottom: 1px solid white;
     padding: 60px;
 }
-.foot{
+/* .foot{
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -124,7 +123,7 @@ footer{
     align-items: center;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
-}
+} */
 .crypto{
     display: flex;
     flex-direction: row;
@@ -154,6 +153,7 @@ footer{
    
 }
 
+
 .platform{
     color: gray;
 }
@@ -173,25 +173,14 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
     }
-    footer{
-      display: flex;
-      flex-direction: column;
-      
-    }
+   
     .seam{
         width: 300px;
     }
-    .foot{
-        display: flex;
-        flex-direction: column;
-        
-      }
+   
     .media{
         display: flex;
         flex-direction: column;
-    }
-    .sub{
-      
     }
     .crypto{
         display: flex;
@@ -199,12 +188,12 @@ footer{
         justify-content: center;
         align-items: center;
     }
-    .item{
-        margin-right: 200px;
+    
+    footer{
+        display: grid;
+        grid-template-columns: 150px 150px;
     }
-    .items{
-        margin-right: 150px;
-    }
+   
     .itemss{
         margin-left: 60px;
         margin-top: 50px;
@@ -257,6 +246,7 @@ footer{
         font-size: 14px;
 
     }
+    
 }
 
 

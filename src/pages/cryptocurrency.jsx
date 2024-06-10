@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import HashLoader from "react-spinners/HashLoader";
 import { MdOutlineCopyright } from "react-icons/md";
+import { FaFacebook } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
 
 
 
@@ -31,6 +35,7 @@ function Cryptocurrency() {
         setLoading(false)
       },6000)
     },[])
+    const facebook=import.meta.env.VITE_FACEBOOK;
   return (
     <>
     {loading ?  <div className="loader">
@@ -52,8 +57,8 @@ function Cryptocurrency() {
      
     </div>
     }
-       <footer className="foot">
-        <div className="item">
+    <footer className="border-t border-white">
+        <div>
           <h3 className="w-[100px]">Company</h3>
            <ul>
             <li>Trade</li>
@@ -63,7 +68,7 @@ function Cryptocurrency() {
             <li>Rates</li>
            </ul>
         </div>
-        <div className="item">
+        <div>
           <h3 className="w-[100px]">Gift Cards</h3>
           <ul>
             <li>Ebay</li>
@@ -73,7 +78,7 @@ function Cryptocurrency() {
             <li>Amazon</li>
            </ul>
         </div>
-        <div className="item">
+        <div >
           <h3 className="w-[100px]">Cryptos</h3>
           <ul>
             <li>BitCoin</li>
@@ -83,7 +88,7 @@ function Cryptocurrency() {
             <li>Ripple</li>
            </ul>
         </div>
-        <div className="items">
+        <div >
           <h3 className="w-[100px]">Cryto Market</h3>
           <ul>
             <li>Price Chart</li>
@@ -91,6 +96,29 @@ function Cryptocurrency() {
             <li>Latest News</li>
             <li>Trading Platform</li>
            </ul>
+        </div>
+        <div className=" itemss">
+          <h3 className="mb-3 text-[#CD45FD] font-[Poppins] w-[150px]">SOCIAL MEDIA.</h3>
+          <div className="flex gap-6 mr-[80px]">
+            <a href={facebook} className="hover:text-red-100">
+
+            <FaFacebook color="white" />
+            </a>
+            <a href={import.meta.env.VITE_INSTA}>
+
+        <FaSquareInstagram color="white" />
+            </a>
+<a href={import.meta.env.VITE_LINKEDIN}>
+
+        <FaLinkedin color="white" />
+            </a>
+            <a href={import.meta.env.VITE_TWITTER}>
+
+           <RiTwitterXFill color="white"/>
+            </a>
+
+        </div>
+          
         </div>
 
 
