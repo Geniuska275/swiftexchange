@@ -129,7 +129,7 @@ function Giftcards() {
         <div className="flex gap-2 items-center">
           
          <MdOutlineCopyright />
-          <small style={{fontSize:"10px",color:"white"}}>Copyright 2024 Swift Exchange</small>
+          <small style={{fontSize:"10px",color:"white"}}>Copyright {new Date().getFullYear()} Swift Exchange</small>
 
         </div>
         <small style={{fontSize:"10px",color:"white"}}>Terms & Conditions</small>
